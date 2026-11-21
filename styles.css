@@ -11,6 +11,10 @@ html {
 
 header {
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
 }
 
 .image-container {
@@ -28,4 +32,10 @@ header {
 .content-container {
     display: flex;
     flex-direction: column;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
 }
