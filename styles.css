@@ -9,6 +9,15 @@ html {
     background-color: black;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
 header {
     color: white;
     display: flex;
@@ -32,6 +41,13 @@ header {
 .content-container {
     display: flex;
     flex-direction: column;
+    
+    height: 100%;
+    flex: 1;
+    
+}
+.text-container {
+    flex: 1;
 }
 
 header ul {
