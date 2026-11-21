@@ -1,8 +1,9 @@
 * {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     color: white;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -43,8 +44,8 @@ header {
 }
 
 .sidebar-container{
-    width: 200px;
     padding: 32px 16px;
+    background-color: black;
 }
 
 .sidebar-container ul {
