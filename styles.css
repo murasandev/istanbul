@@ -1,6 +1,8 @@
 * {
     outline: 2px solid red;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -9,4 +11,21 @@ html {
 
 header {
     color: white;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    flex: 1;
+    max-width: 30vw;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
 }
