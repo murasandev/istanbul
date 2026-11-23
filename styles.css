@@ -82,6 +82,7 @@ header ul {
     gap: 16px;
 }
 
+.sidebar-container a,
 header a {
     text-decoration: none;
 }
